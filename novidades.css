@@ -104,6 +104,20 @@ nav ul a:hover::after{
     padding-top:30px;
     padding-bottom: 30px;
 }
+.banner-b{
+    max-width: 1400px;
+    margin: 0 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.banner-b .container{
+    display: flex;
+    align-items: center;
+}
 
 nav ul ul {
     display: none;
@@ -128,46 +142,46 @@ nav ul ul li a:hover {
     background-color: #eee;
 }
 
-.banner-a .banner-a-text{
+.banner-b .banner-b-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 0px 40px;
+    padding: 54px 40px;
     padding-bottom: 10px;
 }
 
-.banner-a .banner-a-text h3{
+.banner-b .banner-b-text h3 {
     width: 100%;
     text-align: center;
     margin-bottom: 10px;
     font-size: 50px;
 }
 
-.banner-a .livro1,
-.banner-a .livro2,
-.banner-a .livro3  {
+.banner-b .livro1,
+.banner-b .livro2,
+.banner-b .livro3  {
     flex-basis: 30%;
     align-items: center;
-    text-align: justify;
     padding: 15px;
 }
 
-.grid{
+.grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
 }
-.banner-a .banner-a-text h4{
+.banner-b .banner-b-text h4 {
     width: 100%;
-    text-align: center;
+    text-align: left;
     margin-bottom: 10px;
     font-weight:bold;
     font-size: larger;
 }
-.banner-a .banner-a-text p{
+.banner-b .banner-b-text p {
     width: 100%;
     text-align: justify;
     margin-bottom: 10px;
     font-size: large;
 }
+
