@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Prociono&display=swap');
 *{
     margin:0px;
@@ -17,6 +16,7 @@ body{
 section {
     padding:54px 0;
     margin-block: 35px;
+    border-radius: 10px;
     background-color: white;
     text-align:center;
     }
@@ -24,7 +24,8 @@ h1{
     font-size:50px;
 }
 p{
-     font-size:18px;
+     font-size:20px;
+     color:black;
 }
 
 h3{
@@ -32,9 +33,6 @@ h3{
 
 }
 
-p{
-    color:black;
-}
 
 /* .container é o "Seja bem-vindo*/
 .container{
@@ -63,9 +61,8 @@ nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    font-size:14px;
+    font-size:20px;
     padding-top:30px;
-    
 }
 
 nav ul{
@@ -80,9 +77,8 @@ nav ul a{
     margin: 0 25px;
     text-transform: uppercase;
     display: block;
-    white-space: nowrap;
-    
 }
+
 nav ul a:not(.btn)::after{
     content:"";
     background-color: #FFFACD;

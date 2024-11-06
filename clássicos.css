@@ -18,12 +18,13 @@ section {
     margin-block: 35px;
     background-color: white;
     text-align:center;
+    border-radius: 10px;
     }
 h1{
     font-size:60px;
 }
 p{
-     font-size:18px;
+     font-size:20px;
      color:black;
 }
 
@@ -75,7 +76,6 @@ nav ul a{
     color:black;
     margin: 0 25px;
     text-transform: uppercase;
-    font-size:14px;
     display: block;
 }
 nav ul a:not(.btn)::after{

@@ -16,14 +16,15 @@ body{
 section {
     padding:54px 0;
     margin-block: 35px;
+    border-radius: 10px;
     background-color: white;
     text-align:center;
     }
 h1{
-    font-size:60px;
+    font-size:50px;
 }
 p{
-     font-size:18px;
+     font-size:20px;
      color:black;
 }
 
