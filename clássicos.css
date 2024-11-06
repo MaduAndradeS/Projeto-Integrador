@@ -16,12 +16,12 @@ body{
 section {
     padding:54px 0;
     margin-block: 35px;
-    border-radius: 10px;
     background-color: white;
     text-align:center;
+    border-radius: 10px;
     }
 h1{
-    font-size:50px;
+    font-size:60px;
 }
 p{
      font-size:20px;
@@ -78,7 +78,6 @@ nav ul a{
     text-transform: uppercase;
     display: block;
 }
-
 nav ul a:not(.btn)::after{
     content:"";
     background-color: #FFFACD;
@@ -105,6 +104,7 @@ nav ul a:hover::after{
     padding-top:30px;
     padding-bottom: 30px;
 }
+
 .banner-a{
     max-width: 1400px;
     margin: 0 5%;
@@ -117,61 +117,23 @@ nav ul a:hover::after{
 }
 .banner-a .banner-text{
     margin:50px;
-    text-align: center;
     padding:0 10px;
 }
 .banner-a .banner-text-h1{
     font-size:50px;
 }
 .banner-a .banner-a-text{
-    width:80%;
+    width:60%;
     padding: 0 40px;
     display: flex;
     align-items: center;
 }
-.banner-a .banner-a-h3{
+.banner-a .banner-a h3{
     font-size:56px;
 }
-.banner-a .banner-a-p{
-    margin: 5px 0 10px 0;
-}
-.banner-b{
-    max-width: 1400px;
-    margin: 0 5%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top:10px;
-    padding-bottom: 10px;
-}
-.banner-b .container{
-    display: flex;
-    align-items: center;
 
-    }
-.banner-b .banner-b-text{
-        width:80%;
-        padding: 0 40px;
-    }
-.banner-b .banner-b-h3{
-        font-size:55px;
-    }
-.banner-b .banner-b-p{
-        margin: 20px 0 20px 0;
-        padding-bottom: 20px;
-
-    }
-.banner-b .banner-b-img{
-    align-items: center;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.banner-b .banner-b-img img{
-    padding-top: 0px;
-    align-items: center;
-    width: 100%;
+.banner-a .banner-a p{
+    text-align: center;
 }
 nav ul ul {
     display: none;
@@ -195,32 +157,3 @@ nav ul ul li a {
 nav ul ul li a:hover {
     background-color: #eee;
 }
-
-.banner-b .banner-b-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 54px 40px;
-    padding-bottom: 10px;
-}
-
-.banner-b .banner-b-text h3 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-    font-size: 50px;
-}
-
-
-.banner-b .julia,
-.banner-b .maria,
-.banner-b .pedro {
-    flex-basis: 30%;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-

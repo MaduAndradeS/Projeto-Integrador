@@ -105,36 +105,6 @@ nav ul a:hover::after{
     padding-top:30px;
     padding-bottom: 30px;
 }
-.banner-a{
-    max-width: 1400px;
-    margin: 0 5%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top:10px;
-    padding-bottom: 10px;
-}
-.banner-a .banner-text{
-    margin:50px;
-    text-align: center;
-    padding:0 10px;
-}
-.banner-a .banner-text-h1{
-    font-size:50px;
-}
-.banner-a .banner-a-text{
-    width:80%;
-    padding: 0 40px;
-    display: flex;
-    align-items: center;
-}
-.banner-a .banner-a-h3{
-    font-size:56px;
-}
-.banner-a .banner-a-p{
-    margin: 5px 0 10px 0;
-}
 .banner-b{
     max-width: 1400px;
     margin: 0 5%;
@@ -148,31 +118,8 @@ nav ul a:hover::after{
 .banner-b .container{
     display: flex;
     align-items: center;
-
-    }
-.banner-b .banner-b-text{
-        width:80%;
-        padding: 0 40px;
-    }
-.banner-b .banner-b-h3{
-        font-size:55px;
-    }
-.banner-b .banner-b-p{
-        margin: 20px 0 20px 0;
-        padding-bottom: 20px;
-
-    }
-.banner-b .banner-b-img{
-    align-items: center;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
 }
-.banner-b .banner-b-img img{
-    padding-top: 0px;
-    align-items: center;
-    width: 100%;
-}
+
 nav ul ul {
     display: none;
     position: absolute;
@@ -212,15 +159,30 @@ nav ul ul li a:hover {
     font-size: 50px;
 }
 
-
-.banner-b .julia,
-.banner-b .maria,
-.banner-b .pedro {
+.banner-b .livro1,
+.banner-b .livro2,
+.banner-b .livro3  {
     flex-basis: 30%;
+    align-items: center;
+    padding: 15px;
 }
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
+}
+.banner-b .banner-b-text h4 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight:bold;
+    font-size: larger;
+}
+.banner-b .banner-b-text p {
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 10px;
+    font-size: large;
 }
 
