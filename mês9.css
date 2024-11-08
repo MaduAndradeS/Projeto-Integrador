@@ -148,10 +148,10 @@ nav ul a:hover::after{
 }
 .banner-b .banner-b-img{
     align-items: center;
-    width: 100%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 100px;
+    padding-top:70px;
     padding-bottom: 50px;
 }
 .banner-b .banner-b-img img{
