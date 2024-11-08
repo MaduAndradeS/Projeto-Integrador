@@ -64,7 +64,7 @@ nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    font-size:16px;
+    font-size:20px;
     padding-top:30px;
     
 }
@@ -129,7 +129,7 @@ nav ul a:hover::after{
     font-size:50px;
 }
 .banner-a .banner-a-text{
-    width:80%;
+    width:60%;
     padding: 0 40px;
     display: flex;
     align-items: center;
