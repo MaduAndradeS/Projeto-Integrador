@@ -16,6 +16,7 @@ body{
 
 section {
     padding:54px 0;
+    border-radius: 10px;
     margin-block: 35px;
     background-color: white;
     text-align:center;
@@ -24,7 +25,7 @@ h1{
     font-size:50px;
 }
 p{
-     font-size:18px;
+     font-size:20px;
 }
 
 h3{
@@ -63,7 +64,7 @@ nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    font-size:14px;
+    font-size:20px;
     padding-top:30px;
     
 }
