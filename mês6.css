@@ -140,8 +140,8 @@ nav ul a:hover::after{
     max-width: 800px;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 70px;
-    margin-right: 30px;
+    margin-left: 30px;
+    margin-right: 70px;
     padding-top:10px;
     padding-bottom: 10px;
     border-radius: 100%;
