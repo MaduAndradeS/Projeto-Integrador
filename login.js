@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function() {
   const loginForm = document.getElementById("login-form");
   const registroForm = document.getElementById("registro-form");
@@ -19,3 +20,47 @@ document.addEventListener("DOMContentLoaded", function() {
     formTitle.textContent = "Login";
   });
 });
+
+/////////////////////////////////
+
+const loginForm = document.getElementById("login-form");
+const registerForm = document.getElementById("registro-form");
+
+loginForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const username = document.getElementById("login-username").value;
+    const password = document.getElementById("login-senha").value;
+
+    const response = await fetch("http://localhost:3000/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username, password }),
+    });
+    const data = await response.json();
+    if (response.ok) {
+        alert("Login realizado com sucesso!");
+        localStorage.setItem("token", data.token);
+    } else {
+        alert(data.message);
+    }
+});
+
+registerForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const username = document.getElementById("registro-username").value;
+    const email = document.getElementById("registro-email").value;
+    const password = document.getElementById("registro-senha").value;
+
+    const response = await fetch("http://localhost:3000/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username, email, password }),
+    });
+    const data = await response.json();
+    if (response.ok) {
+        alert("Registro realizado com sucesso!");
+    } else {
+        alert(data.message);
+    }
+});
+localStorage.setItem("token", data.token); // Salva o token no localStorage 
