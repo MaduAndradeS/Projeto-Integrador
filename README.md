@@ -1,7 +1,7 @@
 # Projeto-Integrador
 # Clube do Livro - Projeto Integrador
 
-Este é o repositório do projeto integrador da matéria de **Desenvolvimento Web**, desenvolvido por três alunos Jùlia Carriel, Maria Eduarda Andrade e Pedro Cardoso. O projeto consiste na criação de um **site de Clube do Livro**, utilizando as tecnologias **HTML**, **CSS** e **JavaScript**. O site possui funcionalidades como **login de usuários** e **sistema de resenhas** para os livros.
+Este é o repositório do projeto integrador da matéria de **Desenvolvimento Web**, desenvolvido por três alunos Júlia Carriel, Maria Eduarda Andrade e Pedro Cardoso. O projeto consiste na criação de um **site de Clube do Livro**, utilizando as tecnologias **HTML**, **CSS** e **JavaScript**. O site possui funcionalidades como **login de usuários** e **sistema de resenhas** para os livros.
 
 ## Tecnologias Utilizadas
 
@@ -29,4 +29,14 @@ Este é o repositório do projeto integrador da matéria de **Desenvolvimento We
 
 #### 5. **Página de Recomendações**
 - Onde indicamos outros tipos de livros parecidos com os lidos pelo usuário no clube
-- Mostramos noticias de futuros lançamentos 
+- Mostramos noticias de futuros lançamentos
+  
+#### 6. **Links Importantes**
+-
+-
+-
+#### 6. **Wireframe e telas**
+
+
+
+  
