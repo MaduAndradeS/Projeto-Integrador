@@ -32,9 +32,10 @@ Este é o repositório do projeto integrador da matéria de **Desenvolvimento We
 - Mostramos noticias de futuros lançamentos
   
 #### 6. **Links Importantes**
--
--
--
+- Repositorio Trabalho: https://github.com/MaduAndradeS/Projeto-Integrador.git
+- Github Maria Eduarda: https://github.com/MaduAndradeS
+- Github Júlia: https://github.com/juliacapereira
+- Github Pedro: https://github.com/PedroCardosoo
 #### 7. **Wireframe e telas**
 ![WhatsApp Image 2024-12-09 at 15 57 57](https://github.com/user-attachments/assets/ebcc1128-6cdd-4e06-966d-19f3afdd4fb3)
 ![WhatsApp Image 2024-12-09 at 15 57 45](https://github.com/user-attachments/assets/1218f5cf-093a-4db9-8785-0f3e59548a86)
