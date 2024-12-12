@@ -32,12 +32,13 @@ Este é o repositório do projeto integrador da matéria de **Desenvolvimento We
 - Mostramos noticias de futuros lançamentos
   
 #### 6. **Links Importantes**
-- Repositorio Trabalho: https://github.com/MaduAndradeS/Projeto-Integrador.git
+- Repositorio Trabalho: https://github.com/MaduAndradeS/Projeto-Integrador
 - Github Maria Eduarda: https://github.com/MaduAndradeS
 - Github Júlia: https://github.com/juliacapereira
 - Github Pedro: https://github.com/PedroCardosoo
 - Link do site: https://projeto-integrador-web.web.app/index.html
 - Link do vídeo técnico: https://youtu.be/fG3Te4Su4eQ?si=biw5JcALo9gHcg-V
+
 #### 7. **Wireframe e telas**
 ![WhatsApp Image 2024-12-09 at 15 57 57](https://github.com/user-attachments/assets/ebcc1128-6cdd-4e06-966d-19f3afdd4fb3)
 ![WhatsApp Image 2024-12-09 at 15 57 45](https://github.com/user-attachments/assets/1218f5cf-093a-4db9-8785-0f3e59548a86)
@@ -45,5 +46,6 @@ Este é o repositório do projeto integrador da matéria de **Desenvolvimento We
 ![image](https://github.com/user-attachments/assets/0cd8a62e-366f-40df-b5a0-6b842014ca8e)
 ![image](https://github.com/user-attachments/assets/d5048c29-9936-4fd8-8c8f-057bf3ac0262)
 ![image](https://github.com/user-attachments/assets/0efd0cd8-4161-427c-8620-f816124ef640)
+![image](https://github.com/user-attachments/assets/96d52d38-2723-4a5c-86dc-85f0250d1f9c)
 
   
