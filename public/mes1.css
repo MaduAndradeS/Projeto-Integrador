@@ -1,41 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Prociono&display=swap');
-*{
-    margin:0px;
-    padding:0px;
-    box-sizing:border-box;
-    text-decoration: none;
-    outline:none;
-    font-family: "Arima", system-ui;
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: "Arima", system-ui;
 }
 
-body{
-    background-color:#00CED1;
+body {
+    background-color: #00CED1;
 }
 
 section {
-    padding:54px 0;
+    padding: 54px 0;
     margin-block: 35px;
     border-radius: 10px;
     background-color: white;
-    text-align:center;
-    }
-h1{
-    font-size:50px;
-}
-p{
-     font-size:20px;
-     color:black;
+    text-align: center;
 }
 
-h3{
+h1 {
     font-size: 50px;
-
 }
 
+p {
+    font-size: 20px;
+    color: black;
+}
 
-/* .container é o "Seja bem-vindo*/
-.container{
+h3 {
+    font-size: 50px;
+}
+
+.container {
     max-width: 1400px;
     margin: 0 5%;
     padding: 0;
@@ -43,55 +42,57 @@ h3{
     margin-right: auto;
 }
 
-.btn{
-    background-color:lightyellow;
-    color:black;
+.btn {
+    background-color: lightyellow;
+    color: black;
     padding: 15px 20px;
-    border-radius:10px;
-    cursor:pointer;
+    border-radius: 10px;
+    cursor: pointer;
     display: inline-block;
     transition: 1.0s;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #FFFACD;
 }
 
-nav{
-    display:flex;
+nav {
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size:20px;
-    padding-top:30px;
+    font-size: 20px;
+    padding-top: 30px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
     text-decoration: none;
     list-style-type: none;
 }
 
-nav ul a{
-    color:black;
+nav ul a {
+    color: black;
     margin: 0 25px;
     text-transform: uppercase;
     display: block;
 }
 
-nav ul a:not(.btn)::after{
-    content:"";
+nav ul a:not(.btn)::after {
+    content: "";
     background-color: #FFFACD;
-    height:3px;
-    width:0%;
+    height: 3px;
+    width: 0%;
     margin: 0 auto;
-    display:block;
-    transition:0.3s
+    display: block;
+    transition: 0.3s;
 }
-nav ul a:hover::after{
-    width:100%
+
+nav ul a:hover::after {
+    width: 100%;
 }
-.banner{
+
+.banner {
     max-width: 1400px;
     margin: 0 5%;
     padding: 0;
@@ -101,11 +102,12 @@ nav ul a:hover::after{
     margin-bottom: 20px;
 }
 
-.banner-c{
-    padding-top:30px;
+.banner-c {
+    padding-top: 30px;
     padding-bottom: 30px;
 }
-.banner-a{
+
+.banner-a {
     max-width: 800px;
     margin: 0 5%;
     margin-top: 50px;
@@ -113,40 +115,47 @@ nav ul a:hover::after{
     margin-left: 30px;
     margin-right: 60px;
     padding-left: 30px;
-    padding-top:10px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
-.banner-a .banner-text{
-    margin:50px;
+
+.banner-a .banner-text {
+    margin: 50px;
     text-align: center;
-    padding:0 10px;
+    padding: 0 10px;
 }
-.banner-a .banner-text-h1{
-    font-size:50px;
+
+.banner-a .banner-text-h1 {
+    font-size: 50px;
 }
-.banner-a .banner-a-text{
-    width:80%;
+
+.banner-a .banner-a-text {
+    width: 80%;
     padding: 0 40px;
     display: flex;
     align-items: center;
 }
-.banner-a .banner-a-h3{
-    font-size:56px;
+
+.banner-a .banner-a-h3 {
+    font-size: 56px;
 }
-.banner-a .banner-a-p{
+
+.banner-a .banner-a-p {
     margin: 5px 0 10px 0;
 }
-.banner-b{
+
+.banner-b {
     max-width: 800px;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 70px;
     margin-right: 30px;
-    padding-top:10px;
+    padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 100%;
 }
-.banner-b .banner-b-img{
+
+.banner-b .banner-b-img {
     align-items: center;
     width: 90%;
     margin-left: auto;
@@ -154,11 +163,13 @@ nav ul a:hover::after{
     padding-top: 63px;
     padding-bottom: 50px;
 }
-.banner-b .banner-b-img img{
+
+.banner-b .banner-b-img img {
     padding-top: 0px;
     align-items: center;
     width: 50%;
 }
+
 nav ul ul {
     display: none;
     position: absolute;
@@ -186,55 +197,51 @@ nav ul ul li a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 /* Estilo para a seção de comentários */
 #comments-section {
     margin-top: 30px;
     padding: 20px;
-    background-color: #f5f5f5; /* Branco um pouco escuro */
+    background-color: #f5f5f5;
     border-radius: 10px;
     text-align: left;
-    max-width: 800px; /* Padronizando com as caixas acima */
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sutil sombra para destaque */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Título da seção */
 #comments-section h3 {
     font-size: 24px;
     margin-bottom: 15px;
-    text-align: center; /* Centralizando o título */
+    text-align: center;
 }
 
-/* Lista de comentários */
 #comments-list .comment-item {
     margin-bottom: 15px;
     padding: 10px;
-    background-color: #ffffff; /* Fundo branco puro */
+    background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo para o formulário de comentário */
 #comment-form {
     padding: 15px;
-    background-color: #e8e8e8; /* Cinza claro */
+    background-color: #e8e8e8;
     border-radius: 8px;
     margin-top: 20px;
 }
 
-/* Caixa de texto do comentário */
 #comment-form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    resize: none; /* Impede o redimensionamento da caixa de texto */
+    resize: none;
 }
 
-/* Botão de envio do comentário */
 #comment-form button {
     background-color: #00CED1;
     color: white;
@@ -244,12 +251,234 @@ nav ul ul li a:hover {
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-weight: bold;
-    width: 100%; /* Botão ocupa toda a largura do formulário */
+    width: 100%;
 }
 
 #comment-form button:hover {
     background-color: #0096a5;
 }
+
 #comments-list {
-    margin-top: 20px; /* Espaço entre a caixa de comentários e o primeiro comentário */
+    margin-top: 20px;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu {
+    position: relative;
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #666;
+    padding: 5px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-btn:hover {
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.menu-options {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none; /* Oculta inicialmente */
+    flex-direction: column;
+    z-index: 10;
+    min-width: 120px;
+}
+
+.menu-options.hidden {
+    display: none;
+}
+
+.menu-options.visible {
+    display: flex;
+}
+
+.menu-options button {
+    background: none;
+    border: none;
+    padding: 10px 15px;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-size: 14px;
+    color: #333;
+}
+
+.menu-options button:hover {
+    background-color: #f5f5f5;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.edit-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-size: 14px;
+}
+
+.save-edit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.save-edit-btn:hover {
+    background-color: #45a049;
+}
+/* Estilo para os comentários */
+.comment-item p {
+    word-wrap: break-word; /* Quebra palavras longas */
+    word-break: break-word; /* Compatibilidade com navegadores antigos */
+    overflow-wrap: break-word; /* Padrão moderno */
+    white-space: normal; /* Permite que o texto quebre a linha */
+    line-height: 1.5; /* Ajusta o espaçamento entre linhas */
+    font-size: 17px; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Espaçamento abaixo do texto */
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+
+/* Estilo para as datas */
+.comment-item small {
+    margin-left: 18px; /* Move a data para a direita */
+    font-size: 14px; /* Ajuste opcional do tamanho da fonte */
+    color: #555; /* Torna a cor da data mais discreta */
+}
+
+
+
+
+
+.comment-footer {
+    display: flex;
+    justify-content: space-between; /* Espaça os itens */
+    align-items: center; /* Alinha verticalmente */
+    margin-top: 5px; /* Espaçamento acima */
+}
+
+.comment-footer .date-time {
+    font-size: 14px;
+    color: #555; /* Cor suave */
+}
+
+.like-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right:20px;
+    margin-bottom:5px;
+}
+
+.like-btn {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.like-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.like-count {
+    margin-left: 8px; /* Espaço entre o botão e o contador */
+    font-size: 14px;
+    color: #555;
+}
+/* Estilo para o fundo da modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Estilo para o conteúdo da modal */
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.modal-actions .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.modal-actions .btn:hover {
+    background-color: #ddd;
 }

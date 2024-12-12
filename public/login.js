@@ -7,6 +7,9 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebas
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js";
 import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js";
 import { app } from "./firebaseConfig.js";
+import { serverTimestamp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js";
+import { updateProfile } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js";
+    
 
 // Inicialização do Firebase Authentication e Firestore
 const auth = getAuth(app);
@@ -58,12 +61,16 @@ document.addEventListener("DOMContentLoaded", () => {
             const userCredential = await createUserWithEmailAndPassword(auth, email, password);
             const user = userCredential.user;
 
+            await updateProfile(user, {
+                displayName: username, // Define o username como displayName
+            });
+
             // Salvar informações no Firestore
             await addDoc(collection(db, "users"), {
                 uid: user.uid,
-                username,
-                email,
-                createdAt: new Date(),
+                username: username,
+                email: email,
+                createdAt: serverTimestamp(), // Timestamp automático
             });
 
             alert("Usuário registrado com sucesso!");
