@@ -17,15 +17,15 @@ Este é o repositório do projeto integrador da matéria de **Desenvolvimento We
 
 ### 2. **Sistema de Login**
 - Permite que usuários se cadastrem e façam login no site.
-- Permite por meio do cadastro publicar resenhas no site
+- Permite por meio do cadastro publicar comentários no site
 
 
 ### 3. **Página do Livro**
 - Cada livro tem sua própria página com detalhes completos, como sinopse, autor e imagem.
 - Sistema de **resenhas**, onde os usuários podem escrever suas opiniões sobre os livros.
 
-### 4. **Sistema de Resenhas**
-- Usuários autenticados podem escrever, editar e deletar suas resenhas sobre os livros.
+### 4. **Sistema de Comentários**
+- Usuários autenticados podem escrever, editar e deletar seus comentários sobre os livros.
 
 #### 5. **Página de Recomendações**
 - Onde indicamos outros tipos de livros parecidos com os lidos pelo usuário no clube
