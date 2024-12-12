@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Prociono&display=swap');
 *{
     margin:0px;
@@ -16,7 +15,6 @@ body{
 
 section {
     padding:54px 0;
-    border-radius: 10px;
     margin-block: 35px;
     border-radius: 10px;
     background-color: white;
@@ -27,6 +25,7 @@ h1{
 }
 p{
      font-size:20px;
+     color:black;
 }
 
 h3{
@@ -34,9 +33,6 @@ h3{
 
 }
 
-p{
-    color:black;
-}
 
 /* .container é o "Seja bem-vindo*/
 .container{
@@ -67,7 +63,6 @@ nav{
     justify-content: space-between;
     font-size:20px;
     padding-top:30px;
-    
 }
 
 nav ul{
@@ -82,9 +77,8 @@ nav ul a{
     margin: 0 25px;
     text-transform: uppercase;
     display: block;
-    white-space: nowrap;
-    
 }
+
 nav ul a:not(.btn)::after{
     content:"";
     background-color: #FFFACD;
@@ -112,12 +106,13 @@ nav ul a:hover::after{
     padding-bottom: 30px;
 }
 .banner-a{
-    max-width: 1400px;
+    max-width: 800px;
     margin: 0 5%;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 30px;
+    margin-right: 60px;
+    padding-left: 30px;
     padding-top:10px;
     padding-bottom: 10px;
 }
@@ -130,7 +125,7 @@ nav ul a:hover::after{
     font-size:50px;
 }
 .banner-a .banner-a-text{
-    width:60%;
+    width:80%;
     padding: 0 40px;
     display: flex;
     align-items: center;
@@ -142,42 +137,27 @@ nav ul a:hover::after{
     margin: 5px 0 10px 0;
 }
 .banner-b{
-    max-width: 1400px;
-    margin: 0 5%;
+    max-width: 800px;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 70px;
+    margin-right: 30px;
     padding-top:10px;
     padding-bottom: 10px;
+    border-radius: 100%;
 }
-.banner-b .container{
-    display: flex;
-    align-items: center;
-
-    }
-.banner-b .banner-b-text{
-        width:80%;
-        padding: 0 40px;
-    }
-.banner-b .banner-b-h3{
-        font-size:55px;
-    }
-.banner-b .banner-b-p{
-        margin: 20px 0 20px 0;
-        padding-bottom: 20px;
-
-    }
 .banner-b .banner-b-img{
     align-items: center;
-    width: 50%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 63px;
+    padding-bottom: 50px;
 }
 .banner-b .banner-b-img img{
     padding-top: 0px;
     align-items: center;
-    width: 100%;
+    width: 50%;
 }
 nav ul ul {
     display: none;
@@ -202,31 +182,7 @@ nav ul ul li a:hover {
     background-color: #eee;
 }
 
-.banner-b .banner-b-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 54px 40px;
-    padding-bottom: 10px;
-}
-
-.banner-b .banner-b-text h3 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-    font-size: 50px;
-}
-
-
-.banner-b .julia,
-.banner-b .maria,
-.banner-b .pedro {
-    flex-basis: 30%;
-}
-
-.grid {
+.grid1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
-
