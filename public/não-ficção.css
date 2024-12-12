@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Prociono&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    text-decoration: none;
+    outline:none;
+    font-family: "Arima", system-ui;
+
+}
+
+body{
+    background-color:#00CED1;
+}
+
+section {
+    padding:54px 0;
+    margin-block: 35px;
+    border-radius: 10px;
+    background-color: white;
+    text-align:center;
+    }
+h1{
+    font-size:50px;
+}
+p{
+     font-size:20px;
+     color:black;
+}
+
+h3{
+    font-size: 50px;
+
+}
+
+
+/* .container é o "Seja bem-vindo*/
+.container{
+    max-width: 1400px;
+    margin: 0 5%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    background-color:lightyellow;
+    color:black;
+    padding: 15px 20px;
+    border-radius:10px;
+    cursor:pointer;
+    display: inline-block;
+    transition: 1.0s;
+}
+
+.btn:hover{
+    background-color: #FFFACD;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:20px;
+    padding-top:30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav ul a{
+    color:black;
+    margin: 0 25px;
+    text-transform: uppercase;
+    display: block;
+}
+nav ul a:not(.btn)::after{
+    content:"";
+    background-color: #FFFACD;
+    height:3px;
+    width:0%;
+    margin: 0 auto;
+    display:block;
+    transition:0.3s
+}
+nav ul a:hover::after{
+    width:100%
+}
+.banner{
+    max-width: 1400px;
+    margin: 0 5%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.banner-c{
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+.banner-a{
+    max-width: 1400px;
+    margin: 0 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.banner-a .banner-text{
+    margin:50px;
+    text-align: center;
+    padding:0 10px;
+}
+.banner-a .banner-text-h1{
+    font-size:50px;
+}
+.banner-a .banner-a-text{
+    width:60%;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+}
+.banner-a .banner-a h3{
+    font-size:56px;
+}
+.banner-a .banner-a p{
+   margin-left: 10px;
+   margin-right: 10px;
+    text-align: center;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #FFFACD;
+    padding: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li a {
+    padding: 10px;
+    color: black;
+    white-space: nowrap;
+}
+
+nav ul ul li a:hover {
+    background-color: #eee;
+}
