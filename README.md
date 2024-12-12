@@ -36,7 +36,7 @@ Este é o repositório do projeto integrador da matéria de **Desenvolvimento We
 - Github Maria Eduarda: https://github.com/MaduAndradeS
 - Github Júlia: https://github.com/juliacapereira
 - Github Pedro: https://github.com/PedroCardosoo
-- Link do site: pi.book-club.lovestoblog.com 
+- Link do site: https://pi.book-club.lovestoblog.com/index.html 
 - Link do vídeo técnico: https://youtu.be/fG3Te4Su4eQ?si=biw5JcALo9gHcg-V
 
 #### 7. **Wireframe e telas**
