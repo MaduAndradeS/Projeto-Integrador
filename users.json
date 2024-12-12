@@ -1,0 +1,14 @@
+[
+    {
+        "email": "email@email.com",
+        "id": 1,
+        "password": "$2b$10$RBE0rzJ7IjL1uIe342LnTeEKi0wkHDRQOpdq/KIAizT9mYV6tcaNG",
+        "username": "usuario"
+    },
+    {
+        "email": "pedrocardosodiasdacosta@gmail.com",
+        "id": 2,
+        "password": "$2b$10$Igrli9tyAq6sZnjPVA9gjODrVv4e4Ff5VOnSzfhU9mJsKrlxrxcXi",
+        "username": "Pedroca"
+    }
+]

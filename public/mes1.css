@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Prociono&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    text-decoration: none;
+    outline:none;
+    font-family: "Arima", system-ui;
+
+}
+
+body{
+    background-color:#00CED1;
+}
+
+section {
+    padding:54px 0;
+    margin-block: 35px;
+    border-radius: 10px;
+    background-color: white;
+    text-align:center;
+    }
+h1{
+    font-size:50px;
+}
+p{
+     font-size:20px;
+     color:black;
+}
+
+h3{
+    font-size: 50px;
+
+}
+
+
+/* .container é o "Seja bem-vindo*/
+.container{
+    max-width: 1400px;
+    margin: 0 5%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    background-color:lightyellow;
+    color:black;
+    padding: 15px 20px;
+    border-radius:10px;
+    cursor:pointer;
+    display: inline-block;
+    transition: 1.0s;
+}
+
+.btn:hover{
+    background-color: #FFFACD;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:20px;
+    padding-top:30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav ul a{
+    color:black;
+    margin: 0 25px;
+    text-transform: uppercase;
+    display: block;
+}
+
+nav ul a:not(.btn)::after{
+    content:"";
+    background-color: #FFFACD;
+    height:3px;
+    width:0%;
+    margin: 0 auto;
+    display:block;
+    transition:0.3s
+}
+nav ul a:hover::after{
+    width:100%
+}
+.banner{
+    max-width: 1400px;
+    margin: 0 5%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.banner-c{
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+.banner-a{
+    max-width: 800px;
+    margin: 0 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 60px;
+    padding-left: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.banner-a .banner-text{
+    margin:50px;
+    text-align: center;
+    padding:0 10px;
+}
+.banner-a .banner-text-h1{
+    font-size:50px;
+}
+.banner-a .banner-a-text{
+    width:80%;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+}
+.banner-a .banner-a-h3{
+    font-size:56px;
+}
+.banner-a .banner-a-p{
+    margin: 5px 0 10px 0;
+}
+.banner-b{
+    max-width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    margin-right: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius: 100%;
+}
+.banner-b .banner-b-img{
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 63px;
+    padding-bottom: 50px;
+}
+.banner-b .banner-b-img img{
+    padding-top: 0px;
+    align-items: center;
+    width: 50%;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #FFFACD;
+    padding: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li a {
+    padding: 10px;
+    color: black;
+    white-space: nowrap;
+}
+
+nav ul ul li a:hover {
+    background-color: #eee;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* Estilo para a seção de comentários */
+#comments-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f5f5f5; /* Branco um pouco escuro */
+    border-radius: 10px;
+    text-align: left;
+    max-width: 800px; /* Padronizando com as caixas acima */
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sutil sombra para destaque */
+}
+
+/* Título da seção */
+#comments-section h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center; /* Centralizando o título */
+}
+
+/* Lista de comentários */
+#comments-list .comment-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #ffffff; /* Fundo branco puro */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estilo para o formulário de comentário */
+#comment-form {
+    padding: 15px;
+    background-color: #e8e8e8; /* Cinza claro */
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Caixa de texto do comentário */
+#comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; /* Impede o redimensionamento da caixa de texto */
+}
+
+/* Botão de envio do comentário */
+#comment-form button {
+    background-color: #00CED1;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    width: 100%; /* Botão ocupa toda a largura do formulário */
+}
+
+#comment-form button:hover {
+    background-color: #0096a5;
+}
+#comments-list {
+    margin-top: 20px; /* Espaço entre a caixa de comentários e o primeiro comentário */
+}

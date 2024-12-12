@@ -7,6 +7,8 @@
     <title>Home</title>
 </head>
 <body>
+    <script src="./firebaseConfig.js" type="module"></script>
+    <script src="./login.js" type="module"></script>
     <header>
         <div class="container">
            
@@ -19,7 +21,7 @@
                             <a>Livros</a>
                             <ul>
                                 <li><a href="mes1.html">MÊS 1</a></li>
-                                <li><a href="mês2.html">MÊS 2</a></li>
+                                <li><a href="mes2.html">MÊS 2</a></li>
                                 <li><a href="mês3.html">MÊS 3</a></li>
                                 <li><a href="mês4.html">MÊS 4</a></li>
                                 <li><a href="mês5.html">MÊS 5</a></li>
@@ -41,7 +43,7 @@
                                 <li><a href="novidades.html">Novidades</a></li>
                             </ul>
                         </li>
-                        <li><a href="login.html" class="btn">Login</a></li>
+                        <li><a href="login.html" class="btn" id="login-btn">Login</a></li>
                     </ul>
                 </a>
             </div>
@@ -92,5 +94,6 @@
         </div>
         <p>Tá vendo, nossa proposta funciona para todo tipo de leitor, até mesmo os que não leem xD</p>
     </section>
+    <script type="module" src="./authStatus.js"></script>
 </body>
 </html>

@@ -1,0 +1,17 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "Fake functions module for functions emulator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "firebase-admin": "11.11.1",
+    "firebase-functions": "3.24.1"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

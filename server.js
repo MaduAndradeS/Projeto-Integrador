@@ -154,12 +154,4 @@ app.listen(PORT, () => {
 });
 const path = require("path");
 
-const path = require("path");
-
-// Serve arquivos estáticos diretamente da pasta atual (onde está o server.js)
-app.use(express.static(__dirname));
-
-// Rota para servir o arquivo index.html na URL raiz "/"
-app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "index.html"));
-});
+app.use(express.static(path.join(__dirname, "public")));
