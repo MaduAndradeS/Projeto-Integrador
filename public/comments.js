@@ -179,7 +179,6 @@ async function excluirComentario(comentarioId) {
         confirmButton.onclick = async () => {
             try {
                 await deleteDoc(doc(db, "comentarios", comentarioId));
-                alert("Comentário excluído com sucesso!");
                 carregarComentarios();
                 resolve(true);
             } catch (error) {
